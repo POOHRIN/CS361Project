@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Summary">
     <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/idBarChart"
+        android:id="@+id/BarChart"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
