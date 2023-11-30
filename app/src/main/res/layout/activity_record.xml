@@ -182,6 +182,11 @@
     android:layout_marginEnd="12dp"
     android:layout_marginBottom="16dp">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
     <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="126dp"
@@ -190,27 +195,27 @@
       android:orientation="vertical">
 
       <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="horizontal">
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="horizontal">
 
         <Button
-          android:id="@+id/btnCancel"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginEnd="8dp"
-          android:layout_weight="1"
-          android:background="@drawable/buttons"
-          android:text="@string/dismiss" />
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:text="@string/dismiss" />
 
         <Button
-          android:id="@+id/btnConfirm"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"
-          android:background="@drawable/buttons"
-          android:text="@string/save" />
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:text="@string/save" />
       </LinearLayout>
 
       <LinearLayout

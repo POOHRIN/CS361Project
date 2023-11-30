@@ -4,10 +4,22 @@
     <color name="orange">#FFA500</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Project</string>
+<<<<<<< HEAD
+    <string name="day">Date</string>
+    <string name="details">Details</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="expense">Expense</string>
+    <string name="home">Home</string>
+    <string name="income">Income</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="value">Value</string>
+=======
     <string name="expense">Expense</string>
     <string name="income">Income</string>
     <string name="label_month">MONTH</string>
     <string name="label_year">YEAR</string>
+>>>>>>> 2292c434720f0a2b246e073a28cf6d502f63196d
     <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
         
         
