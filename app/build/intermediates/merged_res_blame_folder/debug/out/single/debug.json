@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\drawable_month_ripplr.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\drawable\\month_ripplr.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_column.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_column.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_record.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_month_picker_view.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\month_picker_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_month_picker_dialog.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\month_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project.app-merged_res-31:/layout_activity_summary.xml.flat",
+        "source": "com.example.project.app-main-33:/layout/activity_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_year_label_text_view.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\year_label_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\drawable_rounded_textview.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\drawable\\rounded_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_activity_summary.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\activity_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-merged_res-31:\\layout_month_view_header.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.0\\com.example.project.app-main-33:\\layout\\month_view_header.xml"
+    }
+]
