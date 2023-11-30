@@ -1,7 +1,14 @@
 <resources>
-    <string name="app_name">Project</string>
-    <string name="income">Income</string>
-    <string name="expense">Expense</string>
-    <string name="label_month">MONTH</string>
-    <string name="label_year">YEAR</string>
+  <string name="app_name">Project</string>
+  <string name="income">Income</string>
+  <string name="expense">Expense</string>
+  <string name="dismiss" >Dismiss</string>
+  <string name="save" >Save</string>
+  <string name="name" >Name</string>
+  <string name="day" >Date</string>
+  <string name="value" >Value</string>
+  <string name="details" >Details</string>
+  <string name="home" >Home</string>
+  <string name="label_month">MONTH</string>
+  <string name="label_year">YEAR</string>
 </resources>
