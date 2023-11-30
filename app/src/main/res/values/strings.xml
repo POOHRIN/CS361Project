@@ -2,4 +2,6 @@
     <string name="app_name">Project</string>
     <string name="income">Income</string>
     <string name="expense">Expense</string>
+    <string name="label_month">MONTH</string>
+    <string name="label_year">YEAR</string>
 </resources>
