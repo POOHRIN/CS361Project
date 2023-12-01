@@ -1,11 +1,13 @@
 package com.example.project;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -42,6 +44,10 @@ public class Summary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
+
+        ImageButton history = (ImageButton) findViewById(R.id.history);
+        ImageButton home = (ImageButton)findViewById(R.id.home);
+        ImageButton back = (ImageButton)findViewById(R.id.back);
 
         // initializing variable for bar chart.
         barChart = findViewById(R.id.BarChart);
@@ -99,7 +105,7 @@ public class Summary extends AppCompatActivity {
                         viewDialog.show();
                     }
                 } else {
-                    result.setText(month + "/" + year);
+                    result.setText("Month " +month + " Year " + year);
                     income = 20000;
                     expense = 18250;
 
@@ -128,6 +134,27 @@ public class Summary extends AppCompatActivity {
 
                     barChart.invalidate();
                 }
+            }
+        });
+
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Summary.this, MainActivity.class));
+            }
+        });
+
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Summary.this, History.class));
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Summary.this, MainActivity.class));
             }
         });
     }

@@ -2,11 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B0E6E8"
+    android:background="#B7B8B8"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <!-- layout ด้านบนที่มี Income and Expense-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/arrow_final" />
+
+        <TextView
+            android:id="@+id/HistoryTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="@string/hisforapp"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/setting_final" />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +98,8 @@
         <!-- layout ที่ใช่สำหรับกรอกข้อมูล ชื่อ -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -86,7 +128,8 @@
         <!-- layout ที่ใช่สำหรับกรอกข้อมูล วัน -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -116,11 +159,12 @@
         <!-- layout ที่ใช่สำหรับกรอกข้อมูล ค่าใช้จ่าย-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/numberTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
@@ -146,7 +190,9 @@
         <!-- layout ที่ใช่สำหรับกรอกข้อมูล รายระเอียดเพิ่มเติม-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -175,23 +221,17 @@
 
     </LinearLayout>
     <!-- layout ปุ่มยกเลิกและตกลง จะอยู่ด้านล่างของจอเสมอ-->
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="16dp">
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="48dp"
-            android:layout_height="48dp">
-
-        </ImageButton>
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="126dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="12dp"
             android:orientation="vertical">
@@ -199,6 +239,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="24dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -222,10 +265,41 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/home_f" />
+
+                <ImageButton
+                    android:id="@+id/graph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/graph_f" />
+
+                <ImageButton
+                    android:id="@+id/history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/history_f" />
+            </LinearLayout>
 
         </LinearLayout>
+
     </RelativeLayout>
 
 </LinearLayout>

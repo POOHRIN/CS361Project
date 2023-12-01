@@ -16,11 +16,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button record = (Button) findViewById(R.id.incomeButton);
-        Button summary = (Button) findViewById(R.id.summaryButton);
-        TextView history = (TextView) findViewById(R.id.historyButton);
+        Button income = (Button) findViewById(R.id.incomeButton);
+        Button expense = (Button) findViewById(R.id.expenseButton);
+        ImageButton summary = (ImageButton) findViewById(R.id.graph);
+        ImageButton history = (ImageButton) findViewById(R.id.history);
 
-        record.setOnClickListener(new View.OnClickListener() {
+        income.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Record.class));
+            }
+        });
+
+        expense.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Record.class));
@@ -40,16 +48,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, History.class));
             }
         });
-    }
-    protected void onCreate(){
-        ImageButton myImageView = findViewById(R.id.imageButton);
-        // Get current dimensions
-        int width = myImageView.getLayoutParams().width;
-        int height = myImageView.getLayoutParams().height;
-        // Double the dimensions
-        myImageView.getLayoutParams().width = 2 * width;
-        myImageView.getLayoutParams().height = 2 * height;
-        // Apply the new dimensions
-        myImageView.requestLayout();
     }
 }

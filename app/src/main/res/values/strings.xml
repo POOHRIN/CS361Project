@@ -17,5 +17,8 @@
     <string name="home" >Home</string>
     <string name="label_month">MONTH</string>
     <string name="label_year">YEAR</string>
-    <string name="history">History</string>
+    <string name="hisforapp">History</string>
+    <string name="datetime">date/time</string>
+    <string name="total">total</string>
+    <string name="description">description</string>
 </resources>
