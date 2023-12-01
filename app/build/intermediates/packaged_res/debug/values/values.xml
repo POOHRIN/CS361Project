@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="bgColor">#aed6f1</color>
     <color name="black">#FF000000</color>
     <color name="orange">#FFA500</color>
     <color name="white">#FFFFFFFF</color>
@@ -11,13 +12,18 @@
     <string name="dismiss">Dismiss</string>
     <string name="empty"/>
     <string name="expense">Expense</string>
+    <string name="expenses_main">Expenses</string>
     <string name="hisforapp">History</string>
+    <string name="history_main">History</string>
     <string name="home">Home</string>
     <string name="income">Income</string>
+    <string name="income_main">Income</string>
     <string name="label_month">MONTH</string>
     <string name="label_year">YEAR</string>
+    <string name="menu_main">Menu</string>
     <string name="month">Month</string>
     <string name="name">Name</string>
+    <string name="netAmount_main">Net amount</string>
     <string name="record">Record</string>
     <string name="save">Save</string>
     <string name="show">Show</string>

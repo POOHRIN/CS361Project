@@ -1363,6 +1363,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgColor
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -3053,6 +3054,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable plan_background
 drawable plan_foreground
+drawable rounded_background
 drawable rounded_textview
 drawable test_level_drawable
 drawable toggle_button_background
@@ -3064,6 +3066,7 @@ id BOTTOM_START
 id BarChart
 id CTRL
 id FUNCTION
+id HistoryTV
 id META
 id NO_DEBUG
 id SHIFT
@@ -3146,6 +3149,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3157,6 +3161,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnCancel
+id btnConfirm
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3179,6 +3185,10 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id col_datetime
+id col_description
+id col_name
+id col_total
 id collapseActionView
 id compress
 id confirm_button
@@ -3230,6 +3240,10 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextDay
+id editTextName
+id editTextNumber
+id editTextPerson
 id edit_query
 id elastic
 id embed
@@ -3240,6 +3254,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id expenseButton
 id fade
 id fill
 id fill_horizontal
@@ -3267,6 +3282,7 @@ id grouping
 id groups
 id header_title
 id hideable
+id history
 id home
 id homeAsUp
 id honorRequest
@@ -3277,6 +3293,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton16
 id immediateStop
 id included
 id incomeButton
@@ -3297,6 +3314,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id m3_side_sheet
 id marquee
@@ -3377,6 +3395,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numberTV
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3449,6 +3468,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setting
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3487,7 +3507,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id summaryButton
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3512,6 +3531,8 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3527,6 +3548,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toggleButton
+id toggleButton2
 id top
 id topPanel
 id touch_outside
@@ -3758,10 +3780,15 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap arrow_final
+mipmap graph_f
+mipmap history_f
+mipmap home_f
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap plan
 mipmap plan_round
+mipmap setting_final
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3803,17 +3830,29 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string datetime
+string day
+string description
+string details
+string dismiss
 string empty
 string error_a11y_label
 string error_icon_content_description
 string expense
+string expenses_main
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string hisforapp
+string history_main
+string home
 string icon_content_description
 string income
+string income_main
 string item_view_role_description
+string label_month
+string label_year
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3852,6 +3891,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu_main
 string month
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
@@ -3915,12 +3955,15 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string name
+string netAmount_main
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string record
+string save
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -3930,6 +3973,8 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string summary
+string total
+string value
 string year
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -4242,7 +4287,6 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
-style MonthPickerDialogStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

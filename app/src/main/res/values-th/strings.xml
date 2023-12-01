@@ -5,9 +5,9 @@
     <string name="month">เดือน</string>
     <string name="year">ปี</string>
     <string name="empty"></string>
-    <string name="show">Show</string>
-    <string name="record">Record</string>
-    <string name="summary">Summary</string>
+    <string name="show">แสดงผล</string>
+    <string name="record">ทำรายการ</string>
+    <string name="summary">สรุป</string>
 
     <string name="menu_main">เมนู</string>
     <string name="netAmount_main">ยอดคงเหลือ</string>
@@ -21,9 +21,12 @@
     <string name="day" >วันที่</string>
     <string name="value" >มูลค่า</string>
     <string name="details" >รายละเอียด</string>
-    <string name="home" >Home</string>
+    <string name="home" >หน้าหลัก</string>
     <string name="label_month">เดือน</string>
     <string name="label_year">ปี</string>
-    <string name="history">ประวัติ</string>
+    <string name="hisforapp">ประวัติ</string>
+    <string name="datetime">วัน/เวลา</string>
+    <string name="total">ทั้งหมด</string>
+    <string name="description">คำอธิบาย</string>
 
 </resources>

@@ -4,125 +4,124 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B7B8B8"
     android:orientation="vertical"
-    android:background="@color/bgColor"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:orientation="vertical">
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
 
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/arrow_final" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/menu_main"
+        <TextView
+            android:id="@+id/HistoryTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
+            android:layout_weight="1"
             android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/menu_main" />
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="@string/home"
+            android:textSize="20sp" />
 
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/setting_final" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
     <TextView
-        android:id="@+id/netAmount_main"
+        android:id="@+id/textView"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/rounded_textview"
         android:foregroundGravity="center"
         android:gravity="center"
         android:text="@string/netAmount_main"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="30dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
+        <Button
+            android:id="@+id/incomeButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="@string/income" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center">
+        <Button
+            android:id="@+id/expenseButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="@string/expense" />
+    </LinearLayout>
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/income_main"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center|top"
-                        android:layout_marginRight="60dp"
-                        android:layout_marginLeft="60dp"
-                        android:background="@drawable/rounded_background"
-                        android:padding="20dp"
-                        android:text="@string/income_main"
-                        android:textColor="@color/black"
-                        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/expenses_main"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center|top"
-                        android:layout_marginRight="60dp"
-                        android:background="@drawable/rounded_background"
-                        android:padding="20dp"
-                        android:text="@string/expenses_main"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
-                </LinearLayout>
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/home_f" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="30dp"
-                    android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/graph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/graph_f" />
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/history_main"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="100dp"
-                        android:background="@drawable/rounded_background"
-                        android:padding="5dp"
-                        android:text="@string/history_main"
-                        android:textColor="@color/black"
-                        android:textSize="10sp" />
-                </LinearLayout>
+        <ImageButton
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
+            android:src="@mipmap/history_f" />
+    </LinearLayout>
 
-
-            </LinearLayout>
-
-        </LinearLayout>
-</LinearLayout>
-
-    <TextView
-        android:id="@+id/historyButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/history" />
 </LinearLayout>

@@ -29,15 +29,19 @@
         android:theme="@style/Theme.Project" >
         <activity
             android:name="com.example.project.Summary"
+            android:configChanges="locale|fontScale"
             android:exported="false" />
         <activity
             android:name="com.example.project.History"
+            android:configChanges="locale|fontScale"
             android:exported="false" />
         <activity
             android:name="com.example.project.Record"
+            android:configChanges="locale|fontScale"
             android:exported="false" />
         <activity
             android:name="com.example.project.MainActivity"
+            android:configChanges="locale|fontScale"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

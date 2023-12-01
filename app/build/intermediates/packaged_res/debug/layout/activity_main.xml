@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#B7B8B8"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,14 +23,15 @@
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="TODO"
-            android:src="@mipmap/arrow_final"
-            android:visibility="invisible" />
+            android:src="@mipmap/arrow_final" />
 
         <TextView
             android:id="@+id/HistoryTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:gravity="center"
             android:paddingLeft="70dp"
@@ -53,18 +54,18 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/rounded_textview"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="TextView"
+        android:text="@string/netAmount_main"
         android:textColor="@color/black"
         android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
@@ -93,7 +94,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
-        android:gravity="bottom"
         android:orientation="horizontal">
 
         <ImageButton
@@ -112,7 +112,6 @@
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="TODO"
-            android:contextClickable="true"
             android:src="@mipmap/graph_f" />
 
         <ImageButton
@@ -124,4 +123,5 @@
             android:contentDescription="TODO"
             android:src="@mipmap/history_f" />
     </LinearLayout>
+
 </LinearLayout>

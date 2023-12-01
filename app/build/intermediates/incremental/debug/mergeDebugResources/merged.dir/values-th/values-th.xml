@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <color name="bgColor">#aed6f1</color>
+    <color name="black">#FF000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="white">#FFFFFFFF</color>
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
     <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
@@ -31,6 +35,7 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="app_name">Project</string>
     <string name="bottomsheet_action_collapse">ยุบ Bottom Sheet</string>
     <string name="bottomsheet_action_expand">ขยาย Bottom Sheet</string>
     <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
@@ -39,10 +44,25 @@
     <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
     <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
     <string name="clear_text_end_icon_content_description">ล้างข้อความ</string>
+    <string name="datetime">วัน/เวลา</string>
+    <string name="day">วันที่</string>
+    <string name="description">คำอธิบาย</string>
+    <string name="details">รายละเอียด</string>
+    <string name="dismiss">ยกเลิก</string>
+    <string name="empty"/>
     <string name="error_icon_content_description">ข้อผิดพลาด</string>
+    <string name="expense">รายจ่าย</string>
+    <string name="expenses_main">รายจ่าย</string>
     <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
+    <string name="hisforapp">ประวัติ</string>
+    <string name="history_main">ประวัติรายการ</string>
+    <string name="home">หน้าหลัก</string>
     <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string name="income">รายรับ</string>
+    <string name="income_main">รายรับ</string>
     <string name="item_view_role_description">แท็บ</string>
+    <string name="label_month">เดือน</string>
+    <string name="label_year">ปี</string>
     <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
     <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
     <string name="material_hour_selection">เลือกชั่วโมง</string>
@@ -56,6 +76,8 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">เลือกเวลา</string>
     <string name="material_timepicker_text_input_mode_description">สลับไปโหมดป้อนข้อความเพื่อป้อนเวลา</string>
+    <string name="menu_main">เมนู</string>
+    <string name="month">เดือน</string>
     <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
     <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
@@ -98,7 +120,52 @@
     <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปี</string>
     <string name="mtrl_timepicker_cancel">ยกเลิก</string>
     <string name="mtrl_timepicker_confirm">ตกลง</string>
+    <string name="name">ชื่อ</string>
+    <string name="netAmount_main">ยอดคงเหลือ</string>
     <string name="password_toggle_content_description">แสดงรหัสผ่าน</string>
+    <string name="record">ทำรายการ</string>
+    <string name="save">บันทึก</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string name="show">แสดงผล</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="summary">สรุป</string>
+    <string name="total">ทั้งหมด</string>
+    <string name="value">มูลค่า</string>
+    <string name="year">ปี</string>
+    <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="MonthPickerDialogStyle">
+        <item name="monthBgColor">@color/white</item>
+        <item name="monthBgSelectedColor">@color/orange</item>
+        <item name="monthFontColorSelected">@color/white</item>
+        <item name="monthFontColorNormal">@android:color/black</item>
+        <item name="monthFontColorDisabled">@android:color/darker_gray</item>
+
+        <item name="headerBgColor">@color/orange</item>
+        <item name="headerFontColorSelected">#fff</item>
+        <item name="headerFontColorNormal">#85FFFFFF</item>
+        <item name="headerTitleColor">#fff</item>
+
+        <item name="dialogActionButtonColor">@color/orange</item>
+    </style>
+    <style name="Theme.Project" parent="Base.Theme.Project"/>
+    <declare-styleable name="monthPickerDialog">
+
+       
+        <attr format="color" name="headerTitleColor"/>
+        <attr format="color" name="headerBgColor"/>
+        <attr format="color" name="headerFontColorSelected"/>
+        <attr format="color" name="headerFontColorNormal"/>
+        
+        <attr format="color" name="monthBgColor"/>
+        <attr format="color" name="monthBgSelectedColor"/>
+        <attr format="color" name="monthFontColorSelected"/>
+        <attr format="color" name="monthFontColorNormal"/>
+        <attr format="color" name="monthFontColorDisabled"/>
+        <attr format="color" name="dialogActionButtonColor"/>
+
+
+    </declare-styleable>
 </resources>

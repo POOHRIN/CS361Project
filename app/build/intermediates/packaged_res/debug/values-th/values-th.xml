@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgColor">#aed6f1</color>
+    <color name="black">#FF000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Project</string>
+    <string name="datetime">วัน/เวลา</string>
+    <string name="day">วันที่</string>
+    <string name="description">คำอธิบาย</string>
+    <string name="details">รายละเอียด</string>
+    <string name="dismiss">ยกเลิก</string>
+    <string name="empty"/>
+    <string name="expense">รายจ่าย</string>
+    <string name="expenses_main">รายจ่าย</string>
+    <string name="hisforapp">ประวัติ</string>
+    <string name="history_main">ประวัติรายการ</string>
+    <string name="home">หน้าหลัก</string>
+    <string name="income">รายรับ</string>
+    <string name="income_main">รายรับ</string>
+    <string name="label_month">เดือน</string>
+    <string name="label_year">ปี</string>
+    <string name="menu_main">เมนู</string>
+    <string name="month">เดือน</string>
+    <string name="name">ชื่อ</string>
+    <string name="netAmount_main">ยอดคงเหลือ</string>
+    <string name="record">ทำรายการ</string>
+    <string name="save">บันทึก</string>
+    <string name="show">แสดงผล</string>
+    <string name="summary">สรุป</string>
+    <string name="total">ทั้งหมด</string>
+    <string name="value">มูลค่า</string>
+    <string name="year">ปี</string>
+    <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="MonthPickerDialogStyle">
+        <item name="monthBgColor">@color/white</item>
+        <item name="monthBgSelectedColor">@color/orange</item>
+        <item name="monthFontColorSelected">@color/white</item>
+        <item name="monthFontColorNormal">@android:color/black</item>
+        <item name="monthFontColorDisabled">@android:color/darker_gray</item>
+
+        <item name="headerBgColor">@color/orange</item>
+        <item name="headerFontColorSelected">#fff</item>
+        <item name="headerFontColorNormal">#85FFFFFF</item>
+        <item name="headerTitleColor">#fff</item>
+
+        <item name="dialogActionButtonColor">@color/orange</item>
+    </style>
+    <style name="Theme.Project" parent="Base.Theme.Project"/>
+    <declare-styleable name="monthPickerDialog">
+
+       
+        <attr format="color" name="headerTitleColor"/>
+        <attr format="color" name="headerBgColor"/>
+        <attr format="color" name="headerFontColorSelected"/>
+        <attr format="color" name="headerFontColorNormal"/>
+        
+        <attr format="color" name="monthBgColor"/>
+        <attr format="color" name="monthBgSelectedColor"/>
+        <attr format="color" name="monthFontColorSelected"/>
+        <attr format="color" name="monthFontColorNormal"/>
+        <attr format="color" name="monthFontColorDisabled"/>
+        <attr format="color" name="dialogActionButtonColor"/>
+
+
+    </declare-styleable>
+</resources>
