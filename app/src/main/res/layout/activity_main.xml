@@ -8,7 +8,6 @@
     android:background="@color/bgColor"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +22,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:background="@color/white"
+            android:background="@color/black"
+            android:textColor="@color/white"
             android:gravity="center"
             android:padding="10dp"
             android:text="@string/menu_main" />
@@ -34,9 +34,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-=======
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/netAmount_main"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
@@ -44,97 +44,85 @@
         android:background="@drawable/rounded_textview"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="TextView"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:orientation="horizontal">
->>>>>>> 506d9d45ea68ef6a9d3b3a23dde9d97e4aa95344
-
-        <TextView
-            android:id="@+id/netAmount_main"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="90dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="90dp"
-            android:gravity="center"
-            android:background="@drawable/rounded_background"
-            android:text="@string/netAmount_main" />
+        android:text="@string/netAmount_main"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/income_main"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|top"
-                    android:layout_marginRight="60dp"
-                    android:textSize="20sp"
-                    android:padding="20dp"
-                    android:text="@string/income_main" />
-
-                <Button
-                    android:id="@+id/expenses_main"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|top"
-                    android:textSize="20sp"
-                    android:padding="20dp"
-                    android:text="@string/expenses_main"  />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/history_main"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginRight="100dp"
-                    android:padding="10dp"
-                    android:text="@string/history_main" />
+                    android:gravity="center">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/income_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/rounded_background"
+                        android:padding="20dp"
+                        android:text="@string/income_main"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/expenses_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:layout_marginRight="60dp"
+                        android:background="@drawable/rounded_background"
+                        android:padding="20dp"
+                        android:text="@string/expenses_main"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/history_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="100dp"
+                        android:background="@drawable/rounded_background"
+                        android:padding="5dp"
+                        android:text="@string/history_main"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
             </LinearLayout>
 
-            <!-- Center the button horizontally within the LinearLayout -->
-
-
         </LinearLayout>
-
-    </LinearLayout>
-
-<<<<<<< HEAD
 </LinearLayout>
-=======
+
     <TextView
         android:id="@+id/historyButton"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:clickable="true"
         android:text="@string/history" />
 </LinearLayout>
->>>>>>> 506d9d45ea68ef6a9d3b3a23dde9d97e4aa95344

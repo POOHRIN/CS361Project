@@ -8,13 +8,13 @@
     <string name="show">Show</string>
     <string name="record">Record</string>
     <string name="summary">Summary</string>
-<<<<<<< HEAD
+
     <string name="menu_main">Menu</string>
     <string name="netAmount_main">Net amount</string>
     <string name="income_main">Income</string>
     <string name="expenses_main">Expenses</string>
     <string name="history_main">History</string>
-=======
+
     <string name="dismiss" >Dismiss</string>
     <string name="save" >Save</string>
     <string name="name" >Name</string>
@@ -25,5 +25,5 @@
     <string name="label_month">MONTH</string>
     <string name="label_year">YEAR</string>
     <string name="history">History</string>
->>>>>>> 506d9d45ea68ef6a9d3b3a23dde9d97e4aa95344
+
 </resources>
