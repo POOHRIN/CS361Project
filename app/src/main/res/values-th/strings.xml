@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="income">รายรับ</string>
+    <string name="expense">รายจ่าย</string>
+    <string name="month">เดือน</string>
+    <string name="year">ปี</string>
+    <string name="empty"></string>
+    <string name="show">Show</string>
+    <string name="record">Record</string>
+    <string name="summary">Summary</string>
+
+    <string name="menu_main">เมนู</string>
+    <string name="netAmount_main">ยอดคงเหลือ</string>
+    <string name="income_main">รายรับ</string>
+    <string name="expenses_main">รายจ่าย</string>
+    <string name="history_main">ประวัติรายการ</string>
+
+    <string name="dismiss" >ยกเลิก</string>
+    <string name="save" >บันทึก</string>
+    <string name="name" >ชื่อ</string>
+    <string name="day" >วันที่</string>
+    <string name="value" >มูลค่า</string>
+    <string name="details" >รายละเอียด</string>
+    <string name="home" >Home</string>
+    <string name="label_month">เดือน</string>
+    <string name="label_year">ปี</string>
+    <string name="history">ประวัติ</string>
+
+</resources>
