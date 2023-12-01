@@ -8,6 +8,8 @@ drawable buttons
 drawable circle
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icon361
+drawable mainbg
 drawable plan_background
 drawable plan_foreground
 drawable rounded_background
@@ -56,6 +58,7 @@ mipmap history_f
 mipmap home_f
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap icon361
 mipmap plan
 mipmap plan_round
 mipmap setting_final
