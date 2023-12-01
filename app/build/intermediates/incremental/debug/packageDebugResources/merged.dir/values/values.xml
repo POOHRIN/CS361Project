@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Project</string>
+    <string name="empty"/>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="month">Month</string>
+    <string name="record">Record</string>
+    <string name="show">Show</string>
+    <string name="summary">Summary</string>
+    <string name="year">Year(A.D.)</string>
+    <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="MonthPickerDialogStyle">
+        <item name="monthBgColor">@color/white</item>
+        <item name="monthBgSelectedColor">@color/orange</item>
+        <item name="monthFontColorSelected">@color/white</item>
+        <item name="monthFontColorNormal">@android:color/black</item>
+        <item name="monthFontColorDisabled">@android:color/darker_gray</item>
+
+        <item name="headerBgColor">@color/orange</item>
+        <item name="headerFontColorSelected">#fff</item>
+        <item name="headerFontColorNormal">#85FFFFFF</item>
+        <item name="headerTitleColor">#fff</item>
+
+        <item name="dialogActionButtonColor">@color/orange</item>
+    </style>
+    <style name="Theme.Project" parent="Base.Theme.Project"/>
+    <declare-styleable name="monthPickerDialog">
+
+       
+        <attr format="color" name="headerTitleColor"/>
+        <attr format="color" name="headerBgColor"/>
+        <attr format="color" name="headerFontColorSelected"/>
+        <attr format="color" name="headerFontColorNormal"/>
+        
+        <attr format="color" name="monthBgColor"/>
+        <attr format="color" name="monthBgSelectedColor"/>
+        <attr format="color" name="monthFontColorSelected"/>
+        <attr format="color" name="monthFontColorNormal"/>
+        <attr format="color" name="monthFontColorDisabled"/>
+        <attr format="color" name="dialogActionButtonColor"/>
+
+
+    </declare-styleable>
+</resources>

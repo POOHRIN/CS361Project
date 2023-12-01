@@ -8,6 +8,13 @@
     <string name="show">Show</string>
     <string name="record">Record</string>
     <string name="summary">Summary</string>
+
+    <string name="menu_main">Menu</string>
+    <string name="netAmount_main">Net amount</string>
+    <string name="income_main">Income</string>
+    <string name="expenses_main">Expenses</string>
+    <string name="history_main">History</string>
+
     <string name="dismiss" >Dismiss</string>
     <string name="save" >Save</string>
     <string name="name" >Name</string>
@@ -17,8 +24,6 @@
     <string name="home" >Home</string>
     <string name="label_month">MONTH</string>
     <string name="label_year">YEAR</string>
-    <string name="hisforapp">History</string>
-    <string name="datetime">date/time</string>
-    <string name="total">total</string>
-    <string name="description">description</string>
+    <string name="history">History</string>
+
 </resources>
