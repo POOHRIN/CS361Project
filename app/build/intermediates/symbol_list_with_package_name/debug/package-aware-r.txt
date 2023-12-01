@@ -452,6 +452,7 @@ attr defaultState
 attr deltaPolarAngle
 attr deltaPolarRadius
 attr deriveConstraintsFrom
+attr dialogActionButtonColor
 attr dialogCornerRadius
 attr dialogPreferredPadding
 attr dialogTheme
@@ -605,7 +606,11 @@ attr goIcon
 attr guidelineUseRtl
 attr haloColor
 attr haloRadius
+attr headerBgColor
+attr headerFontColorNormal
+attr headerFontColorSelected
 attr headerLayout
+attr headerTitleColor
 attr height
 attr helperText
 attr helperTextEnabled
@@ -870,6 +875,11 @@ attr mock_labelBackgroundColor
 attr mock_labelColor
 attr mock_showDiagonals
 attr mock_showLabel
+attr monthBgColor
+attr monthBgSelectedColor
+attr monthFontColorDisabled
+attr monthFontColorNormal
+attr monthFontColorSelected
 attr motionDebug
 attr motionDurationExtraLong1
 attr motionDurationExtraLong2
@@ -2040,6 +2050,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2947,6 +2958,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buttons
+drawable circle
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3038,12 +3051,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plan_background
+drawable plan_foreground
+drawable rounded_textview
 drawable test_level_drawable
+drawable toggle_button_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BarChart
 id CTRL
 id FUNCTION
 id META
@@ -3139,9 +3157,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3264,6 +3279,7 @@ id ignoreRequest
 id image
 id immediateStop
 id included
+id incomeButton
 id indeterminate
 id info
 id invisible
@@ -3311,6 +3327,7 @@ id matrix
 id message
 id middle
 id mini
+id monthInput
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3401,6 +3418,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id result
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3434,6 +3452,7 @@ id selection_type
 id sharedValueSet
 id sharedValueUnset
 id shortcut
+id showButton
 id showCustom
 id showHome
 id showTitle
@@ -3468,6 +3487,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id summaryButton
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3490,6 +3510,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3504,6 +3526,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleButton
 id top
 id topPanel
 id touch_outside
@@ -3538,6 +3561,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yearInput
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3652,7 +3676,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_column
+layout activity_history
 layout activity_main
+layout activity_record
+layout activity_summary
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3732,6 +3760,8 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap plan
+mipmap plan_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3773,13 +3803,16 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string empty
 string error_a11y_label
 string error_icon_content_description
+string expense
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string income
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -3819,6 +3852,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string month
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3886,13 +3920,17 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string record
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string show
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string summary
+string year
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4204,6 +4242,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MonthPickerDialogStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -5163,5 +5202,6 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+styleable monthPickerDialog dialogActionButtonColor headerBgColor headerFontColorNormal headerFontColorSelected headerTitleColor monthBgColor monthBgSelectedColor monthFontColorDisabled monthFontColorNormal monthFontColorSelected
 xml backup_rules
 xml data_extraction_rules
