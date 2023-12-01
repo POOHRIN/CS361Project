@@ -8,4 +8,14 @@
     <string name="show">Show</string>
     <string name="record">Record</string>
     <string name="summary">Summary</string>
+    <string name="dismiss" >Dismiss</string>
+    <string name="save" >Save</string>
+    <string name="name" >Name</string>
+    <string name="day" >Date</string>
+    <string name="value" >Value</string>
+    <string name="details" >Details</string>
+    <string name="home" >Home</string>
+    <string name="label_month">MONTH</string>
+    <string name="label_year">YEAR</string>
+    <string name="history">History</string>
 </resources>

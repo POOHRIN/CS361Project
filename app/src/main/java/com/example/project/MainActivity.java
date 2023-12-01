@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button record = (Button) findViewById(R.id.incomeButton);
         Button summary = (Button) findViewById(R.id.summaryButton);
+        TextView history = (TextView) findViewById(R.id.historyButton);
 
         record.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Summary.class));
+            }
+        });
+
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, History.class));
             }
         });
     }

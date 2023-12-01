@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,8 +11,10 @@
         android:id="@+id/textView"
         android:layout_width="250dp"
         android:layout_height="250dp"
+        android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:background="@drawable/rounded_textview"
+        android:foregroundGravity="center"
         android:gravity="center"
         android:text="TextView"
         android:textColor="@color/white"
@@ -21,7 +22,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:orientation="horizontal">
 
@@ -45,4 +46,13 @@
             android:layout_weight="1"
             android:text="@string/summary" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/historyButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="@string/history" />
 </LinearLayout>
