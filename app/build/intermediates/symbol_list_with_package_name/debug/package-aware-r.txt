@@ -2949,6 +2949,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable aron
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -3180,6 +3181,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id chooseMonthbtn
 id chronometer
 id circle_center
 id clear_text
@@ -3347,7 +3349,6 @@ id matrix
 id message
 id middle
 id mini
-id monthInput
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3474,7 +3475,6 @@ id setting
 id sharedValueSet
 id sharedValueUnset
 id shortcut
-id showButton
 id showCustom
 id showHome
 id showTitle
@@ -3585,7 +3585,6 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
-id yearInput
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3832,6 +3831,7 @@ string bottomsheet_drag_handle_content_description
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string chooseMonth
 string clear_text_end_icon_content_description
 string datetime
 string day
@@ -3971,7 +3971,6 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
-string show
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

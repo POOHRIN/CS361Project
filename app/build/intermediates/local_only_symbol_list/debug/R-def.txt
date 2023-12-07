@@ -4,6 +4,7 @@ color bgColor
 color black
 color orange
 color white
+drawable aron
 drawable buttons
 drawable circle
 drawable ic_launcher_background
@@ -20,6 +21,7 @@ id HistoryTV
 id back
 id btnCancel
 id btnConfirm
+id chooseMonthbtn
 id col_datetime
 id col_description
 id col_name
@@ -35,18 +37,15 @@ id home
 id imageButton16
 id incomeButton
 id listView
-id monthInput
 id numberTV
 id result
 id setting
-id showButton
 id textView
 id textView2
 id textView3
 id textView5
 id toggleButton
 id toggleButton2
-id yearInput
 layout activity_column
 layout activity_history
 layout activity_main
@@ -63,6 +62,7 @@ mipmap plan
 mipmap plan_round
 mipmap setting_final
 string app_name
+string chooseMonth
 string datetime
 string day
 string description
@@ -84,7 +84,6 @@ string name
 string netAmount_main
 string record
 string save
-string show
 string summary
 string total
 string value

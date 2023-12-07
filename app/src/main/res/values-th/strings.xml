@@ -5,7 +5,7 @@
     <string name="month">เดือน</string>
     <string name="year">ปี</string>
     <string name="empty"></string>
-    <string name="show">แสดงผล</string>
+    <string name="chooseMonth">เลือกเดือน</string>
     <string name="record">ทำรายการ</string>
     <string name="summary">สรุป</string>
 
