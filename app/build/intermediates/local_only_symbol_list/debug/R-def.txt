@@ -13,6 +13,8 @@ drawable icon361
 drawable mainbg
 drawable plan_background
 drawable plan_foreground
+drawable refresh_background
+drawable refresh_foreground
 drawable rounded_background
 drawable rounded_textview
 drawable toggle_button_background
@@ -38,6 +40,10 @@ id imageButton16
 id incomeButton
 id listView
 id numberTV
+id okBtn
+id picker_month
+id picker_year
+id refreshBtn
 id result
 id setting
 id textView
@@ -51,6 +57,7 @@ layout activity_history
 layout activity_main
 layout activity_record
 layout activity_summary
+layout month_year_picker_dialog
 mipmap arrow_final
 mipmap graph_f
 mipmap history_f
@@ -60,6 +67,8 @@ mipmap ic_launcher_round
 mipmap icon361
 mipmap plan
 mipmap plan_round
+mipmap refresh
+mipmap refresh_round
 mipmap setting_final
 string app_name
 string chooseMonth

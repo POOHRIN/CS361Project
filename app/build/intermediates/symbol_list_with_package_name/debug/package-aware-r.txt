@@ -3057,6 +3057,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable plan_background
 drawable plan_foreground
+drawable refresh_background
+drawable refresh_foreground
 drawable rounded_background
 drawable rounded_textview
 drawable test_level_drawable
@@ -3400,6 +3402,7 @@ id notification_main_column
 id notification_main_column_container
 id numberTV
 id off
+id okBtn
 id on
 id onInterceptTouchReturnSwipe
 id open_search_bar_text_view
@@ -3430,6 +3433,8 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id picker_month
+id picker_year
 id pin
 id position
 id postLayout
@@ -3439,6 +3444,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id refreshBtn
 id report_drawn
 id result
 id reverseSawtooth
@@ -3739,6 +3745,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout month_year_picker_dialog
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3790,6 +3797,8 @@ mipmap ic_launcher_round
 mipmap icon361
 mipmap plan
 mipmap plan_round
+mipmap refresh
+mipmap refresh_round
 mipmap setting_final
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

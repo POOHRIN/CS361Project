@@ -1,11 +1,14 @@
 package com.example.project;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +20,7 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class Summary extends AppCompatActivity {
 
@@ -32,8 +36,7 @@ public class Summary extends AppCompatActivity {
     // array list for storing entries.
     ArrayList barEntriesArrayList;
 
-    int income = 0;
-    int expense = 0;
+    int income = 0, expense = 0, month = 0, year = 0;
 
     Boolean shown_dialog = false;
 
@@ -48,7 +51,9 @@ public class Summary extends AppCompatActivity {
 
         // initializing variable for bar chart.
         barChart = findViewById(R.id.BarChart);
+
         Button chooseMonth = (Button) findViewById(R.id.chooseMonthbtn);
+        ImageButton refresh = (ImageButton) findViewById(R.id.refreshBtn);
 
         TextView result = (TextView) findViewById(R.id.result);
 
@@ -79,7 +84,25 @@ public class Summary extends AppCompatActivity {
         chooseMonth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                showDialog();
+            }
+        });
 
+        refresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText("Month " + month + " Year " + year);
+
+                income = 10000;
+                expense = 9800;
+                getBarEntries(income, expense);
+                barDataSet = new BarDataSet(barEntriesArrayList, "Income & Expense");
+                barData = new BarData(barDataSet);
+                barChart.setData(barData);
+                barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+                barDataSet.setValueTextColor(Color.BLACK);
+                barDataSet.setValueTextSize(16f);
+                barChart.getDescription().setEnabled(false);
                 barChart.invalidate();
             }
         });
@@ -114,5 +137,42 @@ public class Summary extends AppCompatActivity {
         // entry and passing x and y axis value to it.
         barEntriesArrayList.add(new BarEntry(1f, a));
         barEntriesArrayList.add(new BarEntry(2f, b));
+    }
+
+    private static final int MAX_YEAR = 2099;
+    public void showDialog(){
+        final Dialog dialog = new Dialog(Summary.this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
+        dialog.setContentView(R.layout.month_year_picker_dialog);
+
+        Button dialogButton = (Button) dialog.findViewById(R.id.okBtn);
+
+        Calendar cal = Calendar.getInstance();
+
+        final NumberPicker monthPicker = (NumberPicker) dialog.findViewById(R.id.picker_month);
+        final NumberPicker yearPicker = (NumberPicker) dialog.findViewById(R.id.picker_year);
+
+        monthPicker.setMinValue(1);
+        monthPicker.setMaxValue(12);
+        monthPicker.setValue(cal.get(Calendar.MONTH) + 1);
+
+        int yearC = cal.get(Calendar.YEAR);
+        yearPicker.setMinValue(2000);
+        yearPicker.setMaxValue(Calendar.getInstance().get(Calendar.YEAR));
+        yearPicker.setValue(yearC);
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                month = monthPicker.getValue();
+                year = yearPicker.getValue();
+
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
+
     }
 }
