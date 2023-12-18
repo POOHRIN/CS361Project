@@ -1,7 +1,7 @@
-#Thu Dec 14 03:33:47 ICT 2023
-base.0=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+#Mon Dec 18 14:01:31 ICT 2023
+base.0=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex

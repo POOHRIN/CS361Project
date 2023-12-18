@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.3.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\.gradle\caches\transforms-3\e0c2791b672c430de25ffbd4ebf11a3d\transformed\annotation-experimental-1.3.0\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.3.0" from-dependency="true" generated-set="androidx.annotation:annotation-experimental:1.3.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\.gradle\caches\transforms-3\e0c2791b672c430de25ffbd4ebf11a3d\transformed\annotation-experimental-1.3.0\res"><file path="C:\Users\auan4\.gradle\caches\transforms-3\e0c2791b672c430de25ffbd4ebf11a3d\transformed\annotation-experimental-1.3.0\res\values\values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0" from-dependency="true" generated-set="androidx.test:core:1.5.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res"><file path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res\values\values.xml" qualifiers=""><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style></file><file path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res\values-v18\values.xml" qualifiers="v18"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:windowOverscan">true</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:windowOverscan">true</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style></file><file path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res\values-v21\values.xml" qualifiers="v21"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:windowOverscan">true</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowContentTransitions">false</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
-<item name="android:windowNoTitle">true</item>
-<item name="android:windowFullscreen">false</item>
-<item name="android:windowOverscan">true</item>
-<item name="android:fadingEdge">none</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowContentTransitions">false</item>
-<item name="android:windowAnimationStyle">@null</item>
-</style></file><file path="C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res\values-v28\values.xml" qualifiers="v28"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.3.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/.gradle/caches/transforms-3/48fe2a6069bde4912594201db3247053/transformed/annotation-experimental-1.3.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.3.0" from-dependency="true" generated-set="androidx.annotation:annotation-experimental:1.3.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/.gradle/caches/transforms-3/48fe2a6069bde4912594201db3247053/transformed/annotation-experimental-1.3.0/res"><file path="/Users/kiattipat/.gradle/caches/transforms-3/48fe2a6069bde4912594201db3247053/transformed/annotation-experimental-1.3.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0" from-dependency="true" generated-set="androidx.test:core:1.5.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res"><file path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res/values-v28/values.xml" qualifiers="v28"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
 <item name="android:windowNoTitle">true</item>
 <item name="android:windowFullscreen">false</item>
 <item name="android:windowOverscan">true</item>
@@ -57,4 +15,46 @@
 <item name="android:windowBackground">@android:color/white</item>
 <item name="android:windowContentTransitions">false</item>
 <item name="android:windowAnimationStyle">@null</item>
-</style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTest$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\src\androidTest\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTest" generated-set="androidTest$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\src\androidTest\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTestDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\src\androidTestDebug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTestDebug" generated-set="androidTestDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\src\androidTestDebug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\build\generated\res\resValues\androidTest\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\auan4\Documents\GitHub\CS361Project\app\build\generated\res\resValues\androidTest\debug"/></dataSet><mergedItems/></merger>
+</style></file><file path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res/values-v21/values.xml" qualifiers="v21"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file><file path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res/values-v18/values.xml" qualifiers="v18"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file><file path="/Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res/values/values.xml" qualifiers=""><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTest$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/src/androidTest/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTest" generated-set="androidTest$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/src/androidTest/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTestDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/src/androidTestDebug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidTestDebug" generated-set="androidTestDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/src/androidTestDebug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/build/generated/res/resValues/androidTest/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kiattipat/Documents/GitHub/CS361Project/app/build/generated/res/resValues/androidTest/debug"/></dataSet><mergedItems/></merger>

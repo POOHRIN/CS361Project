@@ -23,12 +23,12 @@ id HistoryTV
 id back
 id btnCancel
 id btnConfirm
+id btnOpenDatePicker
 id chooseMonthbtn
 id col_datetime
 id col_description
 id col_name
 id col_total
-id editTextDay
 id editTextName
 id editTextNumber
 id editTextPerson
@@ -49,6 +49,7 @@ id setting
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id toggleButton
 id toggleButton2
@@ -93,6 +94,7 @@ string name
 string netAmount_main
 string record
 string save
+string selectDate
 string summary
 string total
 string value

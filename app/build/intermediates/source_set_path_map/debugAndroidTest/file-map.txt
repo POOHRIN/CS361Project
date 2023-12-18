@@ -1,6 +1,6 @@
-com.example.project.test.app-annotation-experimental-1.3.0-0 C:\Users\auan4\.gradle\caches\transforms-3\e0c2791b672c430de25ffbd4ebf11a3d\transformed\annotation-experimental-1.3.0\res
-com.example.project.test.app-core-1.5.0-1 C:\Users\auan4\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res
-com.example.project.test.app-androidTest-2 C:\Users\auan4\Documents\GitHub\CS361Project\app\build\generated\res\resValues\androidTest\debug
-com.example.project.test.app-mergeDebugAndroidTestResources-3 C:\Users\auan4\Documents\GitHub\CS361Project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.project.test.app-mergeDebugAndroidTestResources-4 C:\Users\auan4\Documents\GitHub\CS361Project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.project.test.app-merged_res-5 C:\Users\auan4\Documents\GitHub\CS361Project\app\build\intermediates\merged_res\debugAndroidTest
+com.example.project.test.app-core-1.5.0-0 /Users/kiattipat/.gradle/caches/transforms-3/2bd16e0733671ea38754780ab7817595/transformed/core-1.5.0/res
+com.example.project.test.app-annotation-experimental-1.3.0-1 /Users/kiattipat/.gradle/caches/transforms-3/48fe2a6069bde4912594201db3247053/transformed/annotation-experimental-1.3.0/res
+com.example.project.test.app-androidTest-2 /Users/kiattipat/Documents/GitHub/CS361Project/app/build/generated/res/resValues/androidTest/debug
+com.example.project.test.app-mergeDebugAndroidTestResources-3 /Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.project.test.app-mergeDebugAndroidTestResources-4 /Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.project.test.app-merged_res-5 /Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/merged_res/debugAndroidTest

@@ -3168,6 +3168,7 @@ id bounceEnd
 id bounceStart
 id btnCancel
 id btnConfirm
+id btnOpenDatePicker
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3246,7 +3247,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextDay
 id editTextName
 id editTextNumber
 id editTextPerson
@@ -3540,6 +3540,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id text_input_end_icon
 id text_input_error_icon
@@ -3980,6 +3981,7 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string selectDate
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

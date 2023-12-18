@@ -1,7 +1,7 @@
-#Thu Dec 07 21:43:16 ICT 2023
-base.0=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\2\\classes.dex
+#Mon Dec 18 12:41:56 ICT 2023
+base.0=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+base.1=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.2=/Users/kiattipat/Documents/GitHub/CS361Project/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/2/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex

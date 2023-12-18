@@ -27,6 +27,7 @@
     <string name="netAmount_main">Net amount</string>
     <string name="record">Record</string>
     <string name="save">Save</string>
+    <string name="selectDate">Select Date</string>
     <string name="summary">Summary</string>
     <string name="total">total</string>
     <string name="value">Value</string>
