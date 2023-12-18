@@ -1,3 +1,5 @@
+import org.gradle.api.JavaVersion
+
 plugins {
     id("com.android.application")
 }
@@ -26,8 +28,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = VERSION_1_1
+        targetCompatibility = JavaVersion.VERSION_1_1
     }
 }
 
