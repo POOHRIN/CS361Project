@@ -16,6 +16,7 @@ public class History extends AppCompatActivity {
         ImageButton summary = (ImageButton) findViewById(R.id.graph);
         ImageButton home = (ImageButton)findViewById(R.id.home);
         ImageButton back = (ImageButton)findViewById(R.id.back);
+        ImageButton setting = (ImageButton) findViewById(R.id.settingBtn);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,13 @@ public class History extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(History.this, MainActivity.class));
+            }
+        });
+
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(History.this, Setting.class));
             }
         });
     }

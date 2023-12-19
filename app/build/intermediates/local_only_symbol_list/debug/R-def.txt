@@ -36,7 +36,6 @@ id expenseButton
 id graph
 id history
 id home
-id imageButton16
 id incomeButton
 id listView
 id numberTV
@@ -46,6 +45,7 @@ id picker_year
 id refreshBtn
 id result
 id setting
+id settingBtn
 id textView
 id textView2
 id textView3
@@ -56,6 +56,7 @@ layout activity_column
 layout activity_history
 layout activity_main
 layout activity_record
+layout activity_setting
 layout activity_summary
 layout month_year_picker_dialog
 mipmap arrow_final

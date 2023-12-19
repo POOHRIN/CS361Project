@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Project" >
         <activity
+            android:name="com.example.project.Setting"
+            android:exported="false" />
+        <activity
             android:name="com.example.project.Summary"
             android:configChanges="locale|fontScale"
             android:exported="false" />

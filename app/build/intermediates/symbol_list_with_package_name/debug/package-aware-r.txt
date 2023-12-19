@@ -3299,7 +3299,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton16
 id immediateStop
 id included
 id incomeButton
@@ -3478,6 +3477,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id setting
+id settingBtn
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3709,6 +3709,7 @@ layout activity_column
 layout activity_history
 layout activity_main
 layout activity_record
+layout activity_setting
 layout activity_summary
 layout custom_dialog
 layout design_bottom_navigation_item

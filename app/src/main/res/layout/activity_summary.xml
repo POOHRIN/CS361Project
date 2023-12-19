@@ -39,7 +39,7 @@
             android:textSize="20sp" />
 
         <ImageButton
-            android:id="@+id/imageButton16"
+            android:id="@+id/settingBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -48,30 +48,11 @@
             android:src="@mipmap/setting_final" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginTop="5dp"
-        android:gravity="right"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/refreshBtn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="right"
-            android:background="@null"
-            android:backgroundTint="@null"
-            android:contentDescription="TODO"
-            android:src="@drawable/refresh_foreground" />
-    </LinearLayout>
-
     <Button
         android:id="@+id/chooseMonthbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="60dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/buttons"
         android:text="@string/chooseMonth" />

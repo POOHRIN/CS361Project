@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button expense = (Button) findViewById(R.id.expenseButton);
         ImageButton summary = (ImageButton) findViewById(R.id.graph);
         ImageButton history = (ImageButton) findViewById(R.id.history);
+        ImageButton setting = (ImageButton) findViewById(R.id.settingBtn);
 
         income.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, History.class));
+            }
+        });
+
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Setting.class));
             }
         });
 

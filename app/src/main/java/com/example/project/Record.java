@@ -1,13 +1,13 @@
 package com.example.project;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Record extends AppCompatActivity {
 
@@ -23,6 +23,7 @@ public class Record extends AppCompatActivity {
         ImageButton history = (ImageButton) findViewById(R.id.history);
         ImageButton home = (ImageButton)findViewById(R.id.home);
         ImageButton back = (ImageButton)findViewById(R.id.back);
+        ImageButton setting = (ImageButton) findViewById(R.id.settingBtn);
 
         a.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +56,13 @@ public class Record extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Record.this, MainActivity.class));
+            }
+        });
+
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Record.this, Setting.class));
             }
         });
     }

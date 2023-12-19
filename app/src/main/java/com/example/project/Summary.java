@@ -48,12 +48,12 @@ public class Summary extends AppCompatActivity {
         ImageButton history = (ImageButton) findViewById(R.id.history);
         ImageButton home = (ImageButton)findViewById(R.id.home);
         ImageButton back = (ImageButton)findViewById(R.id.back);
+        ImageButton setting = (ImageButton) findViewById(R.id.settingBtn);
 
         // initializing variable for bar chart.
         barChart = findViewById(R.id.BarChart);
 
         Button chooseMonth = (Button) findViewById(R.id.chooseMonthbtn);
-        ImageButton refresh = (ImageButton) findViewById(R.id.refreshBtn);
 
         TextView result = (TextView) findViewById(R.id.result);
 
@@ -84,26 +84,7 @@ public class Summary extends AppCompatActivity {
         chooseMonth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialog();
-            }
-        });
-
-        refresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                result.setText("Month " + month + " Year " + year);
-
-                income = 10000;
-                expense = 9800;
-                getBarEntries(income, expense);
-                barDataSet = new BarDataSet(barEntriesArrayList, "Income & Expense");
-                barData = new BarData(barDataSet);
-                barChart.setData(barData);
-                barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
-                barDataSet.setValueTextColor(Color.BLACK);
-                barDataSet.setValueTextSize(16f);
-                barChart.getDescription().setEnabled(false);
-                barChart.invalidate();
+                showDialog(result);
             }
         });
 
@@ -127,6 +108,13 @@ public class Summary extends AppCompatActivity {
                 startActivity(new Intent(Summary.this, MainActivity.class));
             }
         });
+
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Summary.this, Setting.class));
+            }
+        });
     }
 
     private void getBarEntries(int a, int b) {
@@ -140,7 +128,7 @@ public class Summary extends AppCompatActivity {
     }
 
     private static final int MAX_YEAR = 2099;
-    public void showDialog(){
+    public void showDialog(TextView result){
         final Dialog dialog = new Dialog(Summary.this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(false);
@@ -167,6 +155,20 @@ public class Summary extends AppCompatActivity {
 
                 month = monthPicker.getValue();
                 year = yearPicker.getValue();
+
+                result.setText("Month " + month + " Year " + year);
+
+                income = 10000;
+                expense = 9800;
+                getBarEntries(income, expense);
+                barDataSet = new BarDataSet(barEntriesArrayList, "Income & Expense");
+                barData = new BarData(barDataSet);
+                barChart.setData(barData);
+                barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+                barDataSet.setValueTextColor(Color.BLACK);
+                barDataSet.setValueTextSize(16f);
+                barChart.getDescription().setEnabled(false);
+                barChart.invalidate();
 
                 dialog.dismiss();
             }
