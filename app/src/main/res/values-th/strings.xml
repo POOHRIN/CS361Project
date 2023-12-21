@@ -8,6 +8,7 @@
     <string name="chooseMonth">เลือกเดือน</string>
     <string name="record">ทำรายการ</string>
     <string name="summary">สรุป</string>
+    <string name="selectDate">เลือกวัน</string>
 
     <string name="menu_main">เมนู</string>
     <string name="netAmount_main">ยอดคงเหลือ</string>
@@ -28,5 +29,8 @@
     <string name="datetime">วัน/เวลา</string>
     <string name="total">ทั้งหมด</string>
     <string name="description">คำอธิบาย</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="enterdata">กรุณาใส่ข้อมูลทุกช่อง</string>
+    <string name="ok">ตกลง</string>
 
 </resources>

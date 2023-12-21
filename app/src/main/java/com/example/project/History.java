@@ -1,13 +1,22 @@
 package com.example.project;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class History extends AppCompatActivity {
+
+    private  Database database;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,5 +53,33 @@ public class History extends AppCompatActivity {
                 startActivity(new Intent(History.this, Setting.class));
             }
         });
+
+        database = new Database(History.this);
+        try{
+            String[] FROM = {"id", "name", "date", "value", "detail"};
+            String ORDER_BY = "date" + " DESC";
+            SQLiteDatabase db = database.getReadableDatabase();
+            Cursor cursor = db.query("expenses", FROM, null, null, null, null, ORDER_BY);
+            final ListView listView = (ListView)findViewById(R.id.listView);
+            final ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+            while(cursor.moveToNext()) {
+                map = new HashMap<String, String>();
+                String tmp = cursor.getString(0);
+                map.put("name", cursor.getString(1));
+                map.put("date", cursor.getString(2));
+                map.put("value", String.valueOf(cursor.getFloat(3)));
+                map.put("detail", cursor.getString(4));
+                MyArrList.add(map);
+            }
+            SimpleAdapter sAdapt;
+            sAdapt = new SimpleAdapter( History.this, MyArrList, R.layout.activity_column,
+                    new String[] {"name", "date", "value", "detail"},
+                    new int[] {R.id.col_name, R.id.col_datetime, R.id.col_total, R.id.col_description} );
+            listView.setAdapter(sAdapt);
+
+        }finally{
+            database.close();
+        }
     }
 }

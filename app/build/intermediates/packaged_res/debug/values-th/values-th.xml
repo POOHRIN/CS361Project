@@ -5,6 +5,7 @@
     <color name="orange">#FFA500</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Project</string>
+    <string name="cancel">ยกเลิก</string>
     <string name="chooseMonth">เลือกเดือน</string>
     <string name="datetime">วัน/เวลา</string>
     <string name="day">วันที่</string>
@@ -12,6 +13,7 @@
     <string name="details">รายละเอียด</string>
     <string name="dismiss">ยกเลิก</string>
     <string name="empty"/>
+    <string name="enterdata">กรุณาใส่ข้อมูลทุกช่อง</string>
     <string name="expense">รายจ่าย</string>
     <string name="expenses_main">รายจ่าย</string>
     <string name="hisforapp">ประวัติ</string>
@@ -25,8 +27,10 @@
     <string name="month">เดือน</string>
     <string name="name">ชื่อ</string>
     <string name="netAmount_main">ยอดคงเหลือ</string>
+    <string name="ok">ตกลง</string>
     <string name="record">ทำรายการ</string>
     <string name="save">บันทึก</string>
+    <string name="selectDate">เลือกวัน</string>
     <string name="summary">สรุป</string>
     <string name="total">ทั้งหมด</string>
     <string name="value">มูลค่า</string>

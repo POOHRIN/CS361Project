@@ -35,7 +35,7 @@
             android:gravity="center"
             android:paddingLeft="70dp"
             android:paddingRight="70dp"
-            android:text="@string/hisforapp"
+            android:text="@string/record"
             android:textSize="20sp" />
 
         <ImageButton
@@ -137,23 +137,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/day" />
 
-            <EditText
-                android:id="@+id/editTextDay"
-                android:layout_width="247dp"
-                android:layout_height="48dp"
-                android:layout_below="@id/editTextName"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="24dp"
-                android:layout_marginBottom="8dp"
-                android:background="@android:drawable/editbox_background"
-                android:hint="@string/day"
-                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/day" />
+
+            <Button
+                android:id="@+id/btnOpenDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:onClick="showDatePickerDialog"
+                android:text="@string/selectDate" />
         </LinearLayout>
 
         <!-- layout ที่ใช่สำหรับกรอกข้อมูล ค่าใช้จ่าย-->

@@ -8,6 +8,7 @@
     <string name="chooseMonth">Choose Month</string>
     <string name="record">Record</string>
     <string name="summary">Summary</string>
+    <string name="selectDate">Select Date</string>
 
     <string name="menu_main">Menu</string>
     <string name="netAmount_main">Net amount</string>
@@ -28,5 +29,8 @@
     <string name="datetime">date/time</string>
     <string name="total">total</string>
     <string name="description">description</string>
+    <string name="cancel">cancel</string>
+    <string name="enterdata">Please Enter All Data</string>
+    <string name="ok">ok</string>
 
 </resources>
