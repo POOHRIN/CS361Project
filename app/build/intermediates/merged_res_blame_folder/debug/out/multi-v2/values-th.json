@@ -4,42 +4,6 @@
             "outputFile": "com.example.project.app-mergeDebugResources-29:/values-th/values-th.xml",
             "map": [
                 {
-                    "source": "/Users/kiattipat/Documents/GitHub/CS361Project/app/src/main/res/values-th/themes.xml",
-                    "from": {
-                        "startLines": "2,9,7",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "100,386,322",
-                        "endLines": "5,22,7",
-                        "endColumns": "12,12,62",
-                        "endOffsets": "316,1056,380"
-                    },
-                    "to": {
-                        "startLines": "134,138,152",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9845,9960,10635",
-                        "endLines": "137,151,152",
-                        "endColumns": "12,12,61",
-                        "endOffsets": "9955,10630,10692"
-                    }
-                },
-                {
-                    "source": "/Users/kiattipat/Documents/GitHub/CS361Project/app/src/main/res/values-th/strings.xml",
-                    "from": {
-                        "startLines": "1,7,27,20,29,22,17,6,3,14,26,15,23,2,13,24,25,11,4,19,12,8,18,9,28,21,5",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,258,1076,769,1164,851,645,223,103,539,1030,589,899,61,492,942,988,395,147,730,438,309,689,353,1122,809,187",
-                        "endColumns": "44,50,45,39,48,47,43,34,43,49,45,54,42,41,46,45,41,42,39,38,53,43,40,40,41,41,35",
-                        "endOffsets": "56,304,1117,804,1208,894,684,253,142,584,1071,639,937,98,534,983,1025,433,182,764,487,348,725,389,1159,846,218"
-                    },
-                    "to": {
-                        "startLines": "37,45,47,48,49,50,51,52,54,55,57,58,59,61,62,64,65,79,80,123,124,126,127,130,131,132,133",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3131,3787,3918,3964,4003,4052,4099,4142,4239,4283,4423,4469,4524,4636,4678,4785,4831,5788,5831,9249,9287,9418,9462,9685,9726,9768,9809",
-                        "endColumns": "44,50,45,38,48,46,42,26,43,49,45,54,41,41,46,45,41,42,39,37,53,43,39,40,41,40,35",
-                        "endOffsets": "3171,3833,3959,3998,4047,4094,4137,4164,4278,4328,4464,4519,4561,4673,4720,4826,4868,5826,5866,9282,9336,9457,9497,9721,9763,9804,9840"
-                    }
-                },
-                {
                     "source": "/Users/kiattipat/.gradle/caches/transforms-3/17d98998aebface635fee25187eebb31/transformed/core-1.9.0/res/values-th/values-th.xml",
                     "from": {
                         "startLines": "2",
@@ -76,22 +40,37 @@
                     }
                 },
                 {
-                    "source": "/Users/kiattipat/Documents/GitHub/CS361Project/app/src/main/res/values-th/attrs.xml",
+                    "source": "/Users/kiattipat/Documents/GitHub/CS361_Pro/app/src/main/res/values-th/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "18",
-                        "endColumns": "24",
-                        "endOffsets": "784"
+                        "startLines": "1,7,27,20,29,22,17,6,3,14,26,15,23,2,13,24,25,11,4,19,12,8,18,9,28,21,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,258,1076,769,1164,851,645,223,103,539,1030,589,899,61,492,942,988,395,147,730,438,309,689,353,1122,809,187",
+                        "endColumns": "44,50,45,39,48,47,43,34,43,49,45,54,42,41,46,45,41,42,39,38,53,43,40,40,41,41,35",
+                        "endOffsets": "56,304,1117,804,1208,894,684,253,142,584,1071,639,937,98,534,983,1025,433,182,764,487,348,725,389,1159,846,218"
                     },
                     "to": {
-                        "startLines": "153",
-                        "startColumns": "4",
-                        "startOffsets": "10697",
-                        "endLines": "169",
-                        "endColumns": "24",
-                        "endOffsets": "11368"
+                        "startLines": "37,45,47,48,49,50,51,52,54,55,57,58,59,61,62,64,65,79,80,123,124,126,127,130,131,132,133",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3131,3787,3918,3964,4003,4052,4099,4142,4239,4283,4423,4469,4524,4636,4678,4785,4831,5788,5831,9249,9287,9418,9462,9685,9726,9768,9809",
+                        "endColumns": "44,50,45,38,48,46,42,26,43,49,45,54,41,41,46,45,41,42,39,37,53,43,39,40,41,40,35",
+                        "endOffsets": "3171,3833,3959,3998,4047,4094,4137,4164,4278,4328,4464,4519,4561,4673,4720,4826,4868,5826,5866,9282,9336,9457,9497,9721,9763,9804,9840"
+                    }
+                },
+                {
+                    "source": "/Users/kiattipat/Documents/GitHub/CS361_Pro/app/src/main/res/values-th/colors.xml",
+                    "from": {
+                        "startLines": "5,2,4,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "180,55,139,97",
+                        "endColumns": "41,41,40,41",
+                        "endOffsets": "217,92,175,134"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "150,192,234,275",
+                        "endColumns": "41,41,40,41",
+                        "endOffsets": "187,229,270,312"
                     }
                 },
                 {
@@ -112,20 +91,41 @@
                     }
                 },
                 {
-                    "source": "/Users/kiattipat/Documents/GitHub/CS361Project/app/src/main/res/values-th/colors.xml",
+                    "source": "/Users/kiattipat/Documents/GitHub/CS361_Pro/app/src/main/res/values-th/attrs.xml",
                     "from": {
-                        "startLines": "5,2,4,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "180,55,139,97",
-                        "endColumns": "41,41,40,41",
-                        "endOffsets": "217,92,175,134"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "18",
+                        "endColumns": "24",
+                        "endOffsets": "784"
                     },
                     "to": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "150,192,234,275",
-                        "endColumns": "41,41,40,41",
-                        "endOffsets": "187,229,270,312"
+                        "startLines": "153",
+                        "startColumns": "4",
+                        "startOffsets": "10697",
+                        "endLines": "169",
+                        "endColumns": "24",
+                        "endOffsets": "11368"
+                    }
+                },
+                {
+                    "source": "/Users/kiattipat/Documents/GitHub/CS361_Pro/app/src/main/res/values-th/themes.xml",
+                    "from": {
+                        "startLines": "2,9,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,386,322",
+                        "endLines": "5,22,7",
+                        "endColumns": "12,12,62",
+                        "endOffsets": "316,1056,380"
+                    },
+                    "to": {
+                        "startLines": "134,138,152",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9845,9960,10635",
+                        "endLines": "137,151,152",
+                        "endColumns": "12,12,61",
+                        "endOffsets": "9955,10630,10692"
                     }
                 }
             ]
