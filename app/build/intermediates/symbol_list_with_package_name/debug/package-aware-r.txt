@@ -3708,7 +3708,6 @@ layout activity_column
 layout activity_history
 layout activity_main
 layout activity_record
-layout activity_setting
 layout activity_summary
 layout custom_dialog
 layout design_bottom_navigation_item

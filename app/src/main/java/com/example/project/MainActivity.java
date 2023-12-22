@@ -88,13 +88,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Setting.class));
-            }
-        });
-
     }
     @Override
     public void onConfigurationChanged(Configuration newConfig) {

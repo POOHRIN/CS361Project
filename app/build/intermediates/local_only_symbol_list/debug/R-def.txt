@@ -55,7 +55,6 @@ layout activity_column
 layout activity_history
 layout activity_main
 layout activity_record
-layout activity_setting
 layout activity_summary
 layout month_year_picker_dialog
 mipmap arrow_final

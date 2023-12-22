@@ -53,13 +53,6 @@ public class History extends AppCompatActivity {
             }
         });
 
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(History.this, Setting.class));
-            }
-        });
-
         database = new Database(History.this);
         try{
             String[] FROM = {"id", "name", "date", "value", "detail"};

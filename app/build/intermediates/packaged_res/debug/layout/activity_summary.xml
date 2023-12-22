@@ -45,7 +45,8 @@
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="TODO"
-            android:src="@mipmap/setting_final" />
+            android:src="@mipmap/setting_final"
+            android:visibility="invisible" />
     </LinearLayout>
 
     <Button

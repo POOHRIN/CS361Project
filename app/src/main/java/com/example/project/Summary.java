@@ -113,12 +113,6 @@ public class Summary extends AppCompatActivity {
             }
         });
 
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Summary.this, Setting.class));
-            }
-        });
     }
 
     private void getBarEntries(int a, int b) {

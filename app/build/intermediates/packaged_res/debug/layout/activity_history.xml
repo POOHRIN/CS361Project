@@ -42,8 +42,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:contentDescription="TODO"
             android:src="@mipmap/setting_final"
-            android:contentDescription="TODO"/>
+            android:visibility="invisible" />
     </LinearLayout>
 
     <LinearLayout

@@ -3707,7 +3707,6 @@ int layout activity_column 0x7f0b001c
 int layout activity_history 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_record 0x7f0b001f
-int layout activity_setting 0x7f0b0020
 int layout activity_summary 0x7f0b0021
 int layout custom_dialog 0x7f0b0022
 int layout design_bottom_navigation_item 0x7f0b0023
