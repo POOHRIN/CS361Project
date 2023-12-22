@@ -1,338 +1,346 @@
 [
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_plan.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/plan.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_refresh.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\refresh.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_graph_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/graph_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_refresh_foreground.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\refresh_foreground.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_home_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/home_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_home_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\home_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_rounded_background.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/rounded_background.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_toggle_button_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\toggle_button_background.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_refresh_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\refresh_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.project.app-main-32:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_arrow_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\arrow_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_circle.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/circle.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_buttons.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\buttons.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_plan.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/plan.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_refresh_round.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\refresh_round.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.project.app-merged_res-31:/drawable_plan_foreground.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/plan_foreground.xml"
-    },
-    {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_icon361.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/icon361.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_home_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\home_f.png"
     },
     {
         "merged": "com.example.project.app-merged_res-31:/layout_month_year_picker_dialog.xml.flat",
         "source": "com.example.project.app-main-32:/layout/month_year_picker_dialog.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_plan_round.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/plan_round.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_graph_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\graph_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_home_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/home_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_graph_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\graph_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_graph_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/graph_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_plan.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\plan.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_home_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/home_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\circle.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_setting_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/setting_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_icon361.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\icon361.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_plan_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/plan_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_plan_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\plan_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_refresh.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/refresh.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_refresh_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/refresh_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_plan_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\plan_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_history_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/history_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_setting_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/setting_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_plan_background.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/plan_background.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_plan.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\plan.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_aron.jpg.flat",
-        "source": "com.example.project.app-main-32:/drawable/aron.jpg"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_history_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\history_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_refresh_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/refresh_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_setting_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\setting_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_refresh.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/refresh.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_arrow_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/arrow_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_graph_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/graph_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_refresh.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/refresh.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_refresh.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\refresh.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_home_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/home_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_history_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/history_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_plan_round.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\plan_round.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_plan.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/plan.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_refresh.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\refresh.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_arrow_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/arrow_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_icon361.png.flat",
-        "source": "com.example.project.app-main-32:/drawable/icon361.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_graph_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\graph_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_arrow_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/arrow_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_mainbg.jpg.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\mainbg.jpg"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_toggle_button_background.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/toggle_button_background.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_plan_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\plan_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_plan_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/plan_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_graph_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\graph_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_refresh_foreground.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/refresh_foreground.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\activity_history.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_setting_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/setting_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_plan.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\plan.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_plan.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\plan.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_home_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/home_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_refresh_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\refresh_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_plan.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/plan.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_activity_summary.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\activity_summary.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_setting_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/setting_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_history_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\history_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/layout_activity_column.xml.flat",
-        "source": "com.example.project.app-main-32:/layout/activity_column.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_arrow_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\arrow_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_plan.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/plan.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_plan.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\plan.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_plan_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/plan_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_refresh_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\refresh_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_mainbg.jpg.flat",
-        "source": "com.example.project.app-main-32:/drawable/mainbg.jpg"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_refresh_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\refresh_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_graph_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/graph_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_aron.jpg.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\aron.jpg"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.example.project.app-main-32:/layout/activity_main.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_refresh.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\refresh.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/layout_activity_record.xml.flat",
-        "source": "com.example.project.app-main-32:/layout/activity_record.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_arrow_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\arrow_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_setting_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\setting_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_refresh.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/refresh.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_plan_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\plan_background.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_refresh_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/refresh_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_rounded_textview.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\rounded_textview.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_plan_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/plan_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_icon361.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\icon361.png"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_setting_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\setting_final.png"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\rounded_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_setting_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\setting_final.png"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_activity_record.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_arrow_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\arrow_final.png"
     },
     {
         "merged": "com.example.project.app-merged_res-31:/layout_activity_summary.xml.flat",
         "source": "com.example.project.app-main-32:/layout/activity_summary.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_arrow_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/arrow_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_history_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\history_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_history_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/history_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_refresh_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\refresh_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_arrow_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/arrow_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_plan.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\plan.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-hdpi_history_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-hdpi/history_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_home_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\home_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_refresh_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/refresh_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_plan_foreground.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\plan_foreground.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_rounded_textview.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/rounded_textview.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-anydpi-v26_refresh.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-anydpi-v26\\refresh.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_activity_column.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\activity_column.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_refresh_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\refresh_background.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_plan.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/plan.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_graph_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\graph_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/layout_activity_history.xml.flat",
-        "source": "com.example.project.app-main-32:/layout/activity_history.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxxhdpi_history_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxxhdpi\\history_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-mdpi_graph_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-mdpi/graph_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_setting_final.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/setting_final.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_refresh.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/refresh.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_home_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\home_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_buttons.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/buttons.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_setting_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\setting_final.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_refresh.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/refresh.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xhdpi_history_f.png.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xhdpi/history_f.png"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xhdpi_plan_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xhdpi\\plan_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-mdpi_plan_round.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-mdpi\\plan_round.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_refresh_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/refresh_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_refresh.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\refresh.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/drawable_refresh_background.xml.flat",
-        "source": "com.example.project.app-main-32:/drawable/refresh_background.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxhdpi_plan_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxhdpi/plan_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-xxhdpi_home_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-xxhdpi\\home_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-anydpi-v26_refresh_round.xml.flat",
-        "source": "com.example.project.app-main-32:/mipmap-anydpi-v26/refresh_round.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\layout_month_year_picker_dialog.xml.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\layout\\month_year_picker_dialog.xml"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.project.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_history_f.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\history_f.png"
     },
     {
-        "merged": "com.example.project.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.project.app-main-32:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-merged_res-31:\\mipmap-hdpi_arrow_final.png.flat",
+        "source": "C:\\Users\\auan4\\.gradle\\daemon\\8.2\\com.example.project.app-main-32:\\mipmap-hdpi\\arrow_final.png"
     }
 ]

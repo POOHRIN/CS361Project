@@ -3,7 +3,7 @@
     dir="C:\Users\auan4\Documents\GitHub\CS361Project\app"
     name=":app"
     type="APP"
-    maven="Project:app:"
+    maven="BudgetGrapher:app:"
     agpVersion="8.2.0"
     buildFolder="build"
     bootClassPath="C:\Users\auan4\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\auan4\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
