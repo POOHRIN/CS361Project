@@ -20,7 +20,6 @@ import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -76,7 +75,7 @@ public class Summary extends AppCompatActivity {
         barChart.setData(barData);
 
         // adding color to our bar data set.
-        barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+        barDataSet.setColors(Color.GREEN,Color.RED);
 
         // setting text color.
         barDataSet.setValueTextColor(Color.BLACK);
@@ -84,6 +83,7 @@ public class Summary extends AppCompatActivity {
         // setting text size
         barDataSet.setValueTextSize(16f);
         barChart.getDescription().setEnabled(false);
+
 
         chooseMonth.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,14 +115,14 @@ public class Summary extends AppCompatActivity {
 
     }
 
-    private void getBarEntries(int a, int b) {
+    private void getBarEntries(int income, int expense) {
         // creating a new array list
         barEntriesArrayList = new ArrayList<>();
 
         // adding new entry to our array list with bar
         // entry and passing x and y axis value to it.
-        barEntriesArrayList.add(new BarEntry(1f, a));
-        barEntriesArrayList.add(new BarEntry(2f, b));
+        barEntriesArrayList.add(new BarEntry(1f, income));
+        barEntriesArrayList.add(new BarEntry(2f, expense));
     }
 
     private static final int MAX_YEAR = 2099;
@@ -186,14 +186,30 @@ public class Summary extends AppCompatActivity {
 
                 result.setText("Month " + month + " Year " + year);
 
+                // calling method to get bar entries.
                 getBarEntries(income, expense);
+
+                // creating a new bar data set.
                 barDataSet = new BarDataSet(barEntriesArrayList, "Income & Expense");
+
+                // creating a new bar data and
+                // passing our bar data set.
                 barData = new BarData(barDataSet);
+
+                // below line is to set data
+                // to our bar chart.
                 barChart.setData(barData);
-                barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+
+                // adding color to our bar data set.
+                barDataSet.setColors(Color.GREEN,Color.RED);
+
+                // setting text color.
                 barDataSet.setValueTextColor(Color.BLACK);
+
+                // setting text size
                 barDataSet.setValueTextSize(16f);
                 barChart.getDescription().setEnabled(false);
+
                 barChart.invalidate();
 
                 dialog.dismiss();

@@ -101,19 +101,20 @@ public class Record extends AppCompatActivity {
                 TextView name = findViewById(R.id.editTextName);
                 TextView value = findViewById(R.id.editTextNumber);
                 TextView detail = findViewById(R.id.editTextPerson);
-                String stringDate = dateTextView.getText().toString();
-                String stringName = name.getText().toString();
-                String stringValue = value.getText().toString();
-                String stringDetail = detail.getText().toString();
-                float num = Float.parseFloat(stringValue);
-                if(outcome.isChecked()){
-                    num = -num;
-                }
                 // ตรวจสอบว่าข้อมูลถูกใส่หรือไม่
                 if (name.getText().toString().isEmpty() || value.getText().toString().isEmpty() || detail.getText().toString().isEmpty()) {
                     // แสดง Toast ให้ใส่ข้อมูล
-                    Toast.makeText(getApplicationContext(), R.string.enterdata, Toast.LENGTH_SHORT).show();
+                    String enterData = getString(R.string.enterdata);
+                    Toast.makeText(getApplicationContext(), enterData, Toast.LENGTH_SHORT).show();
                 } else {
+                    String stringDate = dateTextView.getText().toString();
+                    String stringName = name.getText().toString();
+                    String stringValue = value.getText().toString();
+                    String stringDetail = detail.getText().toString();
+                    float num = Float.parseFloat(stringValue);
+                    if(outcome.isChecked()){
+                        num = -num;
+                    }
                     AlertDialog.Builder builder = new AlertDialog.Builder(Record.this);
                     builder.setTitle(R.string.record);
                     String nameA = getString(R.string.name);
@@ -132,16 +133,32 @@ public class Record extends AppCompatActivity {
                     builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent intent = new Intent(Record.this, MainActivity.class);
+                            //Intent intent = new Intent(Record.this, MainActivity.class);
                             //บันทึกลง DB อยู่ด้านล่าง
                             saveExpense(finalNum);
-                            startActivity(intent);
+                            //startActivity(intent);
                         }
                     });
 
                     builder.show();
                 }
 
+            }
+        });
+
+        Button btnDismiss = findViewById(R.id.btnCancel);
+
+        btnDismiss.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView dateTextView = findViewById(R.id.textView4);
+                TextView name = findViewById(R.id.editTextName);
+                TextView value = findViewById(R.id.editTextNumber);
+                TextView detail = findViewById(R.id.editTextPerson);
+                dateTextView.setText(R.string.day);
+                name.setText(null);
+                value.setText(null);
+                detail.setText(null);
             }
         });
     }

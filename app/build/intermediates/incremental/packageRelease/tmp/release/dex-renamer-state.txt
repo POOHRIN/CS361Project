@@ -1,0 +1,4 @@
+#Fri Dec 22 13:27:29 ICT 2023
+base.0=C\:\\Users\\auan4\\Documents\\GitHub\\CS361Project\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
