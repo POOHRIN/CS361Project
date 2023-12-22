@@ -82,8 +82,8 @@ public class Record extends AppCompatActivity {
         ToggleButton outcome = findViewById(R.id.toggleButton2);
 
         boolean incomeChecked = getIntent().getBooleanExtra("incomeButtonState", false);
-        income.setChecked(!incomeChecked);
-        outcome.setChecked(incomeChecked);
+        income.setChecked(incomeChecked);
+        outcome.setChecked(!incomeChecked);
 
         income.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -112,7 +112,7 @@ public class Record extends AppCompatActivity {
                 String stringValue = value.getText().toString();
                 String stringDetail = detail.getText().toString();
                 float num = Float.parseFloat(stringValue);
-                if(!outcome.isChecked()){
+                if(outcome.isChecked()){
                     num = -num;
                 }
                 // ตรวจสอบว่าข้อมูลถูกใส่หรือไม่
@@ -151,8 +151,7 @@ public class Record extends AppCompatActivity {
             }
         });
     }
-//
-//
+
     public void showDatePickerDialog(View view) {
         // รับเวลาปัจจุบัน
         final Calendar calendar = Calendar.getInstance();

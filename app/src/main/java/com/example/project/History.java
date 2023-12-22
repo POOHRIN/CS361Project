@@ -11,8 +11,14 @@ import android.widget.SimpleAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 
 public class History extends AppCompatActivity {
 
@@ -65,13 +71,30 @@ public class History extends AppCompatActivity {
             HashMap<String, String> map;
             while(cursor.moveToNext()) {
                 map = new HashMap<String, String>();
-                String tmp = cursor.getString(0);
                 map.put("name", cursor.getString(1));
                 map.put("date", cursor.getString(2));
                 map.put("value", String.valueOf(cursor.getFloat(3)));
                 map.put("detail", cursor.getString(4));
                 MyArrList.add(map);
             }
+            cursor.close();
+
+            Collections.sort(MyArrList, new Comparator<HashMap<String, String>>() {
+                final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+
+                @Override
+                public int compare(HashMap<String, String> lhs, HashMap<String, String> rhs) {
+                    try {
+                        Date date1 = dateFormat.parse(lhs.get("date"));
+                        Date date2 = dateFormat.parse(rhs.get("date"));
+                        return date2.compareTo(date1);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                        return 0; // Handle the exception or log it
+                    }
+                }
+            });
+
             SimpleAdapter sAdapt;
             sAdapt = new SimpleAdapter( History.this, MyArrList, R.layout.activity_column,
                     new String[] {"name", "date", "value", "detail"},

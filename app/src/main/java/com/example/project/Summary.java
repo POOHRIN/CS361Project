@@ -2,12 +2,15 @@ package com.example.project;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 
@@ -21,6 +24,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
 
 public class Summary extends AppCompatActivity {
 
@@ -38,7 +42,7 @@ public class Summary extends AppCompatActivity {
 
     int income = 0, expense = 0, month = 0, year = 0;
 
-    Boolean shown_dialog = false;
+    private  Database database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,13 +157,41 @@ public class Summary extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                income = 0;
+                expense = 0;
                 month = monthPicker.getValue();
                 year = yearPicker.getValue();
 
+                database = new Database(Summary.this);
+                try{
+                    String[] FROM = {"id", "name", "date", "value", "detail"};
+                    String ORDER_BY = "id" + " DESC";
+                    SQLiteDatabase db = database.getReadableDatabase();
+                    Cursor cursor = db.query("expenses", FROM, null, null, null, null, ORDER_BY);
+                    final ListView listView = (ListView)findViewById(R.id.listView);
+                    final ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+                    while(cursor.moveToNext()) {
+                        String date = cursor.getString(2);
+                        float value = cursor.getFloat(3);
+                        String[] parts = date.split("/");
+                        int monthD = Integer.parseInt(parts[1]);
+                        int yearD = Integer.parseInt(parts[2]);
+                        if(monthD == month && yearD == year){
+                            if (value < 0){
+                                expense -= value;
+                            }else if (value > 0){
+                                income += value;
+                            }
+                        }
+                    }
+
+
+                }finally{
+                    database.close();
+                }
+
                 result.setText("Month " + month + " Year " + year);
 
-                income = 10000;
-                expense = 9800;
                 getBarEntries(income, expense);
                 barDataSet = new BarDataSet(barEntriesArrayList, "Income & Expense");
                 barData = new BarData(barDataSet);

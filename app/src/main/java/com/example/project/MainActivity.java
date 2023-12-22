@@ -40,12 +40,7 @@ public class MainActivity extends AppCompatActivity {
             Cursor cursor = db.query("expenses", FROM, null, null, null, null, ORDER_BY);
             HashMap<String, String> map;
             while(cursor.moveToNext()) {
-                map = new HashMap<String, String>();
-                map.put("id", String.valueOf(cursor.getInt(0)));;
-                map.put("name", cursor.getString(1));
-                map.put("date", cursor.getString(2));
                 value += cursor.getFloat(3);
-                map.put("detail", cursor.getString(4));
             }
 
         }finally{
